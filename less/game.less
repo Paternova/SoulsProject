@@ -1,0 +1,124 @@
+.game{
+position: relative;
+width: 100%;
+left: 0%;
+}
+
+@media @tablet{
+  .game{
+  width: 80%;
+  left: 10%;
+  }
+}
+.game--name{
+  font-size: 3rem;
+  padding: 20px;
+  color: @blue-midnight;
+}
+
+@media @tablet{
+  .game--name{
+  font-size:5rem;
+  }
+}
+.game--picture{
+  width:100%;
+}
+
+.game--info--liste{
+  background-color: @blue-midnight;
+}
+.game--info--item{
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 24.7%;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color:white;
+}
+
+@media @tablet{
+  .game--info--item{
+  font-size:2.5rem;
+  }
+}
+
+.game--description{ 
+  position: relative;
+  width: 80%;
+  left: 10%;
+  text-align: justify;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  text-indent: 10px;
+  font-family: enchanted;
+  color: @blue-midnight;
+}
+
+@media @tablet{
+  .game--description{
+  font-size:2.5rem;
+  }
+}
+.game--description:first-letter{
+  color: @carrot;
+  font-size: 2rem;
+}
+@media @tablet{
+  .game--description:first-letter{
+  font-size:3rem;
+  }
+}
+.game--trailer{
+  border: none;
+  background-color: @carrot;
+  color:white;
+  font-size: 2rem;
+  font-family: enchanted;
+  width: 8%;
+  position: relative;
+  left: 46%;
+  margin-bottom: 15px;
+  margin-top:15px;
+}
+
+@media @tablet{
+  .game--trailer{
+  font-size:3rem;
+  }
+}
+
+.game--play {
+  width: 0; 
+  height: 0; 
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.game--features{
+  font-size: 2.5rem;
+  color: @blue-midnight;
+  margin: 50px;
+}
+
+@media @tablet{
+  .game--features{
+  font-size:3.5rem;
+  }
+}
+
+.game--helps{
+  font-size: 2.5rem;
+  color: @blue-midnight;
+  margin: 50px;
+}
+
+@media @tablet{
+  .game--helps{
+  font-size:3.5rem;
+  }
+}
